@@ -18,6 +18,8 @@ namespace MemoryGame
         {
             AreaRegistration.RegisterAllAreas();
 
+           // RouteTable.RoutesMapHubs();
+
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
